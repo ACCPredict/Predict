@@ -1,0 +1,123 @@
+.profile {
+  width: 100%;
+}
+
+.profile h1 {
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.profile-loading {
+  text-align: center;
+  padding: 4rem;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.profile-info {
+  margin-bottom: 3rem;
+}
+
+.info-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info-card h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.info-item:last-child {
+  border-bottom: none;
+}
+
+.info-label {
+  font-weight: 600;
+  color: #666;
+}
+
+.info-value {
+  color: #333;
+  font-family: monospace;
+}
+
+.picks-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.picks-section h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.no-picks {
+  text-align: center;
+  padding: 3rem;
+  color: #666;
+}
+
+.no-picks p {
+  margin-bottom: 0.5rem;
+}
+
+.picks-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.pick-card {
+  padding: 1.5rem;
+  background: #f5f5f5;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+}
+
+.pick-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.pick-type {
+  font-weight: 600;
+  color: #667eea;
+  font-size: 0.9rem;
+}
+
+.pick-date {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.pick-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.pick-symbol {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  font-family: monospace;
+}
+
+.pick-confidence {
+  color: #666;
+  font-size: 0.9rem;
+}

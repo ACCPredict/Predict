@@ -1,0 +1,100 @@
+.dashboard {
+  width: 100%;
+}
+
+.dashboard h1 {
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.dashboard-loading {
+  text-align: center;
+  padding: 4rem;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.dashboard-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-card h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.metrics-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.metric-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #f5f5f5;
+  border-radius: 5px;
+}
+
+.metric-type {
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #333;
+}
+
+.metric-value {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #667eea;
+}
+
+.metric-count {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.picks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.pick-item {
+  padding: 1rem;
+  background: #f5f5f5;
+  border-radius: 5px;
+}
+
+.pick-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.pick-type {
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #333;
+}
+
+.pick-symbol {
+  color: #666;
+  font-family: monospace;
+}
+
+.pick-confidence {
+  color: #667eea;
+  font-size: 0.9rem;
+}
