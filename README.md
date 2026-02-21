@@ -9,9 +9,7 @@ This application provides AI-powered predictions with confidence scores for:
 - **Sports Betting**: Odds-based predictions adjusted with team ratings
 
 ## Project Managers
-
-- Luke Abraham
-- Andrew Johnson
+Built by Luke Abraham and Andrew Johnson
 
 ## Tech Stack
 
@@ -318,3 +316,4 @@ Tests include:
 ## License
 
 This project is for informational purposes only. Predictions should not be used as financial or betting advice.
+
